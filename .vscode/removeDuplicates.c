@@ -1,3 +1,5 @@
+
+//删除重复元素
 int removeDuplicates(int* nums, int numsSize)
 {
     int slow=1,fast=1;
