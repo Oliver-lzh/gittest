@@ -14,6 +14,7 @@ public:
     
     int pop()
     {
+        //如果输出栈是空的，就先把数据导入
         if(stOut.empty())
         {
             while(!stIn.empty())
@@ -39,4 +40,6 @@ public:
         return stIn.empty()&&stOut.empty();    
     }
 };
+
+
 
