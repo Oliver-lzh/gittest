@@ -21,10 +21,7 @@ class Solution {
             {
                 return true;
             }
-            if(q!=NULL && p==NULL)
-                return false;
-            if(p!=NULL && q==NULL)
-                return false;
+          
     
             while(!que.empty())
             {
