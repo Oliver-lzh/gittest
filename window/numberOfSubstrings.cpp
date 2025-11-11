@@ -14,7 +14,6 @@ public:
 
             while(cnt.size()>=3 )
             {
-                
                 char t=s[left];
                 cnt[t]--;
                 if(cnt[t]==0)
@@ -25,9 +24,7 @@ public:
             }
             result+=left;
 
-        }    
+        }
         return result;
-        
-    
     }
 };
